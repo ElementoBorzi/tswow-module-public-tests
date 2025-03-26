@@ -10,13 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Sync and merge upstream repo
         uses: jsduenass/sync-docs@v0.alpha
         with:
           # URL of gitHub public upstream repo
-          upstream_repo: https://github.com/phonkala/tswow-module-public-tests
+          upstream_repo: https://github.com/phonkala/tswow-module-public-tests.git
           # Branch to merge from upstream (defaults to downstream branch)
           upstream_branch: main
           # Branch to merge into downstream
