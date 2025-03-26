@@ -17,9 +17,9 @@ jobs:
         run: |
           git remote add upstream https://github.com/phonkala/tswow-module-public-tests.git
           git fetch upstream
-          git checkout master
-          git merge upstream/master
-          git push origin master
+          git checkout main
+          git merge upstream/main
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
