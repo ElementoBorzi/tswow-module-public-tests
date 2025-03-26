@@ -16,7 +16,7 @@ jobs:
         uses: jsduenass/sync-docs@v0.alpha
         with:
           # URL of gitHub public upstream repo
-          upstream_repo: https://github.com/phonkala/tswow-module-public-tests
+          upstream_repo: https://github.com/ElementoBorzi/tswow-module-public-tests
           # Branch to merge from upstream (defaults to downstream branch)
           upstream_branch: master
           # Branch to merge into downstream
